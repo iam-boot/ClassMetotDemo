@@ -65,7 +65,8 @@ namespace ClassMetotDemo
         {
             foreach (var musteri in musteriListe)
             {
-                Console.WriteLine(musteri);
+                Console.WriteLine("********************Müsteri Bilgileri******************");
+                Console.WriteLine("Müşteri ID: {0}\nMüşteri Cinsiyeti : {1}\nMüşteri Bakiye : {2}\n", musteri.Id, musteri.Gender, musteri.Balance);
             }
         }
 
